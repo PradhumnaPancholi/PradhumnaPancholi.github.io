@@ -4,12 +4,14 @@ import React from 'react';
 const Navbar = () => {
     return(
         <div>
-            <AppBar position='static'>
-                <Toolbar>
-                    <Typography variant='h5'>Pradhumna Pancholi</Typography>
-                    <Button>About</Button>
-                    <Button>Portfolio</Button>
-                    <Button>Contact</Button>
+            <AppBar className='nav-bar'  position='static'>
+                <Toolbar className='nav-item'>
+                    <Typography className='nav-brand' variant='h5'>Pradhumna Pancholi</Typography>
+                    <div className='nav-link'>
+                        <Button className='nav-option'>About</Button>
+                        <Button className='nav-option'>Portfolio</Button>
+                        <Button className='nav-option'>Contact</Button>
+                    </div> 
                 </Toolbar>
             </AppBar>
         </div>
