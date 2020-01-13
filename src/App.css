@@ -1,3 +1,7 @@
+body{
+  background-color: black !important;
+}
+
 /*For navbar*/
 .nav-bar{
   background-color: black !important;
@@ -22,17 +26,55 @@
   /* background-color: #43a99b !important; */
   border-radius: 0 !important;
   /* background: #73C8A9;  /* fallback for old browsers */
-/*background: -webkit-linear-gradient(to right, #373B44, #73C8A9);  Chrome 10-25, Safari 5.1-6
-background: linear-gradient(to right, #373B44, #73C8A9); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /*background: -webkit-linear-gradient(to right, #373B44, #73C8A9);  Chrome 10-25, Safari 5.1-6
+  background: linear-gradient(to right, #373B44, #73C8A9); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-background: #780206;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
+  background: #780206;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .card-content{
   text-align: center;
   color: white;
+  margin-top: 25vh;
+}
+
+/*  for about section */
+.about-header{
+  color: white;
+  text-align: center;
+  font-size: 2em !important;
+  margin: 2% !important;
+}
+
+.under-line{
+  width: 15% !important;
+}
+
+.about-header{
+  color:  #CC4228 ;
+}
+
+.under-line{
+  border-color:  #CC4228 !important;
+  margin-bottom: 5%;
+}
+
+.profile-img-container{
+  height: 500px !important;
+  width: 500px !important;
+  text-align: center;
+}
+
+.profile-img{
+  flex-shrink: 0;
+  width: 70%;
+  height: 70%;
+}
+
+.intro-container{
+  height: 500px !important;
+  width: 500px !important;
+  text-align: center;
 }
