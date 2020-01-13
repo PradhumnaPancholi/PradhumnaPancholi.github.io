@@ -78,3 +78,21 @@ body{
   width: 500px !important;
   text-align: center;
 }
+
+.intro-container p{
+  color: white;
+}
+
+.social-media-icons{
+  color: white;
+  padding: 5%;
+}
+
+.fab{
+  margin: 1%;
+  font-size: 180%;;
+}
+
+.fab:hover{
+  color: #CC4228;
+}
