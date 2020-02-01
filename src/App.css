@@ -28,7 +28,15 @@ body{
 
 
 /* for sidebar */
-
+.MuiDrawer-paperAnchorRight {
+  background-color: black !important;
+  color: #CC4228 !important;
+  width: 20vw;
+}
+.MuiListItem-root{
+  text-align: center !important;
+  font-size: 1.5em;
+}
 .fas{
   color: #CC4228 !important;
 }

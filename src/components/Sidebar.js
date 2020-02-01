@@ -36,7 +36,7 @@ const Sidebar = () => {
                 <i class="fas fa-bars"></i>
             </Button>
             
-            <Drawer anchor='right' open={state.right} onClose={toggleDrawer('right', false)}>
+            <Drawer anchor='right'  open={state.right} onClose={toggleDrawer('right', false)}>
                 {navLinks('right')}
             </Drawer>
         </div>
