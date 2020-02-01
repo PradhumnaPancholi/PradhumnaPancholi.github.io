@@ -31,7 +31,7 @@ const Sidebar = () => {
     )
     
     return(
-        <div>
+        <div className='sidebar-toggle-button'>
             <Button onClick={toggleDrawer('right', true)}>
                 <i class="fas fa-bars"></i>
             </Button>
