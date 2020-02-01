@@ -6,7 +6,7 @@ import Sidebar from './Sidebar';
 const Navbar = () => {
     return(
         <div>
-            <AppBar className='nav-bar'  position='static'>
+            <AppBar className='nav-bar'>
                 <Toolbar className='nav-items'>
                     <Typography className='nav-brand' variant='h5'>Pradhumna Pancholi</Typography>
                     {/* <div className='nav-links'>

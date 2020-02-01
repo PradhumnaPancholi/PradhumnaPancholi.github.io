@@ -3,8 +3,8 @@ import React from 'react';
 
 const Header = () => {
     return(
-        <div className='header'>
-            <Card fluid className='card'>
+        <div className='header' width={1}>
+            <Card fluid className='card' width={1}>
                 <CardContent className='card-content'>
                     <Typography>Pradhumna Pancholi</Typography>
                     <Typography>Software Developer & Blogger @ Geekstuffpro.tech</Typography>
