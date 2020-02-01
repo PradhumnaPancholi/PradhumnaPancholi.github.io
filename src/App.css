@@ -1,5 +1,18 @@
+/* common */
 body{
   background-color: black !important;
+}
+
+.section-header{
+  color:  #CC4228;
+  text-align: center;
+  font-size: 2em !important;
+  margin: 2% !important;
+}
+
+.under-line{
+  border-color:  #CC4228 !important;
+  margin-bottom: 5%;
 }
 
 /*For navbar*/
@@ -14,7 +27,12 @@ body{
   color: inherit !important;
 }
 
-/* For carousel */
+/* for sidebar */
+.fas{
+  color: #CC4228 !important;
+}
+
+/* For carousel/header */
 .header{
   width: 100%;
   height: 60vh;
@@ -41,24 +59,8 @@ body{
 }
 
 /*  for about section */
-.about-header{
-  color: white;
-  text-align: center;
-  font-size: 2em !important;
-  margin: 2% !important;
-}
-
 .under-line{
   width: 15% !important;
-}
-
-.about-header{
-  color:  #CC4228 ;
-}
-
-.under-line{
-  border-color:  #CC4228 !important;
-  margin-bottom: 5%;
 }
 
 .profile-img-container{
@@ -83,13 +85,12 @@ body{
   color: white;
 }
 
-.social-media-icons{
+.social-media-icons a{
   color: white;
-  padding: 5%;
 }
 
 .fab{
-  margin: 1%;
+  margin: 2%;
   font-size: 180%;;
 }
 

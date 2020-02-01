@@ -1,6 +1,8 @@
 import { AppBar, Button, Toolbar, Typography } from '@material-ui/core';
 import React from 'react';
 
+import Sidebar from './Sidebar';
+
 const Navbar = () => {
     return(
         <div>
@@ -14,6 +16,7 @@ const Navbar = () => {
                     </div> 
                 </Toolbar>
             </AppBar>
+            <Sidebar />
         </div>
     )
 }
