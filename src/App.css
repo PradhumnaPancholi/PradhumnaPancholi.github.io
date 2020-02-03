@@ -1,6 +1,13 @@
 /* common */
+html{
+  width: 100%;
+  min-height: 100%;
+}
+
 body{
   background-color: black !important;
+  margin: 0%;
+  padding: 0%;
 }
 
 .section-header{
@@ -43,28 +50,19 @@ body{
 
 /* For carousel/header */
 .header{
-  width: 100%;
+  width: 100vw !important;
   height: 60vh;
-}
 
-.card{
-  height: 100%;
-  width: 100%;
-  /* background-color: #43a99b !important; */
-  border-radius: 0 !important;
-  /* background: #73C8A9;  /* fallback for old browsers */
-  /*background: -webkit-linear-gradient(to right, #373B44, #73C8A9);  Chrome 10-25, Safari 5.1-6
-  background: linear-gradient(to right, #373B44, #73C8A9); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  color: white;
 
   background: #780206;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.card-content{
-  text-align: center;
-  color: white;
-  margin-top: 25vh;
+.header p:nth-child(1){
+  padding-top: 25vh;
 }
 
 /*  for about section */
