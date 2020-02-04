@@ -66,6 +66,10 @@ body{
 }
 
 /*  for about section */
+.about{
+  padding-left: 5%;
+  padding-right: 5%;
+}
 .under-line{
   width: 15% !important;
 }
@@ -78,6 +82,7 @@ body{
   flex-shrink: 0;
   width: 70%;
   height: 70%;
+  border-radius: 50%;
 }
 
 .intro-container{
