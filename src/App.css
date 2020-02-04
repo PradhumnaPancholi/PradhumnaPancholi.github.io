@@ -38,7 +38,7 @@ body{
 .MuiDrawer-paperAnchorRight {
   background-color: black !important;
   color: #CC4228 !important;
-  width: 20vw;
+  width: 25vw;
 }
 .MuiListItem-root{
   text-align: center !important;
@@ -56,9 +56,9 @@ body{
   text-align: center;
   color: white;
 
-  background: #780206;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #780206 !important;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #061161, #780206) !important;  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #061161, #780206) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .header p:nth-child(1){
@@ -71,8 +71,6 @@ body{
 }
 
 .profile-img-container{
-  height: 500px !important;
-  width: 500px !important;
   text-align: center;
 }
 
@@ -83,8 +81,6 @@ body{
 }
 
 .intro-container{
-  height: 500px !important;
-  width: 500px !important;
   text-align: center;
 }
 

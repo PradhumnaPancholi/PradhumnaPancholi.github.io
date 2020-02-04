@@ -6,7 +6,7 @@ const About = () => {
         <div className='about'>
             <Typography className='section-header'>About</Typography>
             <hr className='under-line'/>
-            <Grid container spacing={2}>
+            <Grid container>
                 <Grid item sm={12} md={6}>
                     <div className='profile-img-container'>
                         <img className='profile-img' src='https://avatars0.githubusercontent.com/u/29339287?s=460&v=4' />
