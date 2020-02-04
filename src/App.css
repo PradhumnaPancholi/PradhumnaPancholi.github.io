@@ -28,6 +28,13 @@ body{
   color: #CC4228 !important;
 }
 
+.nav-bar h5{
+  font-family: 'Teko', sans-serif !important; 
+  font-size: 1.8em;
+  font-weight: bolder !important;
+  font-style: italic;
+}
+
 .nav-items{
   display: flex;
   justify-content: space-between;
@@ -48,6 +55,13 @@ body{
   color: #CC4228 !important;
 }
 
+.sidebar-toggle-button button{
+  font-size: 1.2em;
+}
+
+.sidebar-toggle-button{
+  margin-right: 0%;
+}
 /* For carousel/header */
 .header{
   width: 100vw !important;
