@@ -1,17 +1,17 @@
-import { Card, CardContent, CardMedia, Grid, Link, Typography } from '@material-ui/core';
+import { Card, CardContent, Grid, Link, Typography } from '@material-ui/core';
 import React from 'react';
 
-const ProjectCard = () => {
-    return(
+const ProjectCard = (data) => {
+    const {name, link, description} = data
+    console.log(data)
+    return(   
         <div>
             <Grid item sm={12} md={4} >
                 <Card>
-                    <CardMedia />
                     <CardContent>
-                        <Typography variant='h6'>Sleek</Typography>
-                        <Typography variant='body2' component='p'>lorem1bhjjbbjhbjhbjhbhjbhbh</Typography>
-                        <Link>Source</Link>
-                        <Link>Demo</Link>
+                        <Typography variant='h6'>{name}</Typography>
+                        <Typography variant='body2' component='p'>{description}</Typography>
+                        <Link to={link}>Source</Link>
                     </CardContent>
               </Card>
             </Grid>
