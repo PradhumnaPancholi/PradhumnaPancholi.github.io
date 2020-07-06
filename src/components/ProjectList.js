@@ -7,7 +7,7 @@ import ProjectCard from './Layout/ProjectCard';
 const ProjectList = () => {
     return(
         <div className='projects'>
-            <Typography className='section-header'>Projects</Typography>
+            <Typography className='section-header'>Portfolio</Typography>
             <hr className='under-line' />
             <Grid container>
                 {/* Render list of projects */}
