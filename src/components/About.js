@@ -14,7 +14,7 @@ const About = () => {
                 </Grid>
                 <Grid item sm={12} md={6}>
                     <div className='intro-container'>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                        <p>Hi, I am software developer based in Toronto, Canada. I started my career in software development in 2017 when I enrolled myself in Computer Programming(COPR) Diploma at Georgian College of Applied Arts & Technology. I graduated in September 2019 and have been working as an independent contractor since. I have worked in Java, C#, ASP.NET MVC, ASP.Net Core, Arduino, JavaScript, and Swift. However, most of my recent experience have been in JavaScript(React, Node, Express) and Ethereum (Solidity). I am also currently enrolled (after-hours) in User Interface Research Design (Specialization) at University Of Minnisota.</p>
                         <div className='social-media-icons'>
                             <Link target='_blank' href='https://github.com/PradhumnaPancholi/'>
                                 <i class="fab fa-github-square"></i>
