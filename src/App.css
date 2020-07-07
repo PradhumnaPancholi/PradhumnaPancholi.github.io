@@ -19,7 +19,7 @@ body{
 
 .under-line{
   border-color:  #CC4228 !important;
-  margin-bottom: 5%;
+  margin-bottom: 7%;
 }
 
 /*For navbar*/
@@ -114,8 +114,8 @@ body{
 
 .profile-img{
   flex-shrink: 0;
-  width: 70%;
-  height: 70%;
+  width: 60%;
+  height: 60%;
   border-radius: 50%;
 }
 
@@ -125,6 +125,8 @@ body{
 
 .intro-container p{
   color: white;
+  font-size: large !important;
+  margin: 8%;
 }
 
 .social-media-icons a{

@@ -14,7 +14,7 @@ const About = () => {
                 </Grid>
                 <Grid item sm={12} md={6}>
                     <div className='intro-container'>
-                        <p>Hi, I am software developer based in Toronto, Canada. I started my career in software development in 2017 when I enrolled myself in Computer Programming(COPR) Diploma at Georgian College of Applied Arts & Technology. I graduated in September 2019 and have been working as an independent contractor since. I have worked in Java, C#, ASP.NET MVC, ASP.Net Core, Arduino, JavaScript, and Swift. However, most of my recent experience have been in JavaScript(React, Node, Express) and Ethereum (Solidity). I am also currently enrolled (after-hours) in User Interface Research Design (Specialization) at University Of Minnisota.</p>
+                        <p>Hi, I am software developer based in Toronto, Canada. I started my career in software development in 2017 when I enrolled myself in Computer Programming(COPR) at Georgian College of Applied Arts & Technology. I graduated in September 2019 and have been working as an independent contractor since. I have worked in Java, C#, ASP.NET MVC, ASP.Net Core, Arduino, JavaScript, and Swift. However, most of my recent experience have been in JavaScript(React, Node, Express) and Ethereum (Solidity). I am also currently enrolled (after-hours) in User Interface Research Design (Specialization) at University Of Minnisota.</p>
                         <div className='social-media-icons'>
                             <Link target='_blank' href='https://github.com/PradhumnaPancholi/'>
                                 <i class="fab fa-github-square"></i>
