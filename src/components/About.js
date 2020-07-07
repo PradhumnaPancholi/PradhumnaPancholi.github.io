@@ -9,7 +9,7 @@ const About = () => {
             <Grid container>
                 <Grid item sm={12} md={6}>
                     <div className='profile-img-container'>
-                        <img className='profile-img' src='https://avatars0.githubusercontent.com/u/29339287?s=460&v=4' />
+                        <img className='profile-img' src='https://avatars0.githubusercontent.com/u/29339287?s=460&v=4' alt='profile-img'/>
                     </div>
                 </Grid>
                 <Grid item sm={12} md={6}>
