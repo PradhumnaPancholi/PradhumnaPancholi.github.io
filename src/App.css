@@ -14,7 +14,7 @@ body{
   color:  #CC4228;
   text-align: center;
   font-size: 2em !important;
-  margin: 2% !important;
+  margin: 7% 2% 2% 2% !important;
 }
 
 .under-line{
@@ -146,6 +146,41 @@ body{
 .projects{
   margin-left: 5%;
   margin-right: 5%;
+}
+
+.project-card{
+  height: 35vh !important;
+  background-color: black !important;
+  border: rgb(57, 7, 60) 2px solid;
+  border-radius: 3% !important;
+}
+
+.project-content{
+  color: rgb(97, 0, 25);
+  text-align: center;
+  padding: 5% !important;
+}
+
+.project-content p{
+  color: white;
+  opacity: 50%;
+  margin: 2%;
+}
+
+.project-content button{
+  opacity: 60%;
+  color: white;
+  background: #780206 !important;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #061161, #780206) !important;  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #061161, #780206) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.project-content button:hover{
+  opacity: 100%;
+}
+
+.project-content button a:hover{
+  text-decoration: none;
 }
 
 
