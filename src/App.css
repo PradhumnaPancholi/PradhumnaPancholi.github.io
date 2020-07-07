@@ -87,6 +87,18 @@ body{
   padding-left: 5%;
 }
 
+.contact-btn {
+  margin: 7% !important;
+  opacity: 60%;
+  border: solid 0.5px white !important;
+  color: white !important;
+  background-color: white;
+}
+
+.contact-btn:hover {
+  opacity: 100% !important;
+}
+
 /*  for about section */
 .about{
   padding-left: 5%;
