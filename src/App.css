@@ -183,5 +183,43 @@ body{
   text-decoration: none;
 }
 
+/* for contact-form  */
+.contact-form-field{
+  background-color: white;
+  width: 35%;
+  color: red !important;
+}
+
+.input{
+  margin: 1%;
+}
+
+.contact-form form{
+  text-align: center;
+}
+
+.contact-form button{
+  opacity: 70%;
+  width: 10%;
+  margin: 1%;
+  color: white;
+  background: #780206 !important;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #061161, #780206) !important;  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #061161, #780206) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.contact-form label, .MuiFormLabel-shrink{
+  color: #CC4228 !important;
+}
+
+.MuiFilledInput-underline, .Mui-focused{
+  color: #CC4228 !important;
+}
+
+.MuiFilledInput-underline::after{
+  border-bottom: 2px solid #CC4228 !important;
+}
+
 
 /* media queries */
