@@ -126,7 +126,7 @@ body{
 .intro-container p{
   color: white;
   font-size: large !important;
-  margin: 8%;
+  margin: 5%;
 }
 
 .social-media-icons a{
@@ -141,5 +141,12 @@ body{
 .fab:hover{
   color: #CC4228;
 }
+
+/* For projects section */
+.projects{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 
 /* media queries */

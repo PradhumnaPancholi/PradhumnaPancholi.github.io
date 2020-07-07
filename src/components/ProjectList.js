@@ -9,11 +9,18 @@ const ProjectList = () => {
         <div className='projects'>
             <Typography className='section-header'>Portfolio</Typography>
             <hr className='under-line' />
-            <Grid container>
+            <Grid 
+                container 
+                direction='row'
+                justify='center'
+                alignItems='center'
+                className='project-list'
+                spacing={3}
+            >
                 {/* Render list of projects */}
                 {projects.map((project) => {
                     return( 
-                        <Grid item sm={12} md={4} >
+                        <Grid item xs={12} md={4}>
                             <ProjectCard data={project}/>
                         </Grid>
                     )

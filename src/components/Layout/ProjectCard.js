@@ -1,4 +1,4 @@
-import { Card, CardContent, Grid, Link, Typography } from '@material-ui/core';
+import { Card, CardContent, Link, Typography } from '@material-ui/core';
 import React from 'react';
 
 const ProjectCard = (data) => {
@@ -6,15 +6,13 @@ const ProjectCard = (data) => {
     console.log(data)
     return(   
         <div>
-            <Grid item sm={12} md={4} >
-                <Card>
-                    <CardContent>
-                        <Typography variant='h6'>{name}</Typography>
-                        <Typography variant='body2' component='p'>{description}</Typography>
-                        <Link to={link}>Source</Link>
-                    </CardContent>
-              </Card>
-            </Grid>
+            <Card>
+                <CardContent>
+                    <Typography variant='h6'>{name}</Typography>
+                    <Typography variant='body2' component='p'>{description}</Typography>
+                    <Link to={link}>Source</Link>
+                </CardContent>
+            </Card>
         </div>
     )
 }
