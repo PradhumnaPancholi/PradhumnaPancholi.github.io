@@ -12,7 +12,7 @@ const ContactForm = (props) => {
             <form autoComplete='on' defaultValue>
                 {/* input feilds */}
                 {contactFormDetails.map((item) => (
-                    <div className='input'>
+                    <div key={item} className='input'>
                         <TextField 
                             required
                             className='contact-form-field' 

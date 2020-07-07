@@ -33,7 +33,7 @@ const Sidebar = () => {
     return(
         <div className='sidebar-toggle-button'>
             <Button onClick={toggleDrawer('right', true)}>
-                <i class="fas fa-bars"></i>
+                <i className="fas fa-bars"></i>
             </Button>
             
             <Drawer anchor='right'  open={state.right} onClose={toggleDrawer('right', false)}>
