@@ -1,33 +1,32 @@
 [
     {
         "name": "Research Collective",
-        "description": "",
-        "link": ""
+        "description": "A open-source dApp (decentralized app) built with React, Ethereum, Aragon, and 3Box over other technologies that allows researchers to share their work and achieve 'web of trust'",
+        "link": "https://github.com/ResearchCollective/ResearchCollective"
     },
     {
         "name": "Incible",
-        "description": "",
-        "link": ""
+        "description": "A client-side app built with React & Redux that allows user to manage their client complains. In addition to authentication, it allows users to create, read, update, and delete 'incidents'",
+        "link": "https://github.com/PradhumnaPancholi/Incible_Client"
     },
     {
         "name": "Incible API",
-        "description": "",
-        "link": ""
+        "description": "An API that powers all the operations for above mentioned Incible project. The API is built on Node.js with Express, MongoDB, Bcrypt, and JWT using best practices.",
+        "link": "https://github.com/PradhumnaPancholi/incible_api"
     },
     {
         "name": "Sleek",
-        "description": "",
-        "link": ""
+        "description": "A Slack clone built for iOS using Swift 4, Alamofire, SwiftyJSON, and SocketIO over other libraries. Users can create profiles, set avatars, create channels, send, and recieve messages",
+        "link": "https://github.com/PradhumnaPancholi/Sleek"
     },
     {
         "name": "Tic-Tac-Toe",
-        "description": "",
-        "link": ""
+        "description": "As the name says, as Tic-Tac-Toe game built for iOS using Swift. In addition to play the game, you can also store history and watch a 'replay' of your previous games.",
+        "link": "https://github.com/PradhumnaPancholi/Tic-Tac-Toe"
     },
     {
-        "name": "YelpCamp",
-        "description": "",
+        "name": "Planogram",
+        "description": "A real-time project management tool built using React, Redux, and Firebase. Allows users to create, read, and edit project docs. Users can also see real-time notification of those actions.",
         "link": ""
     }
-
 ]
