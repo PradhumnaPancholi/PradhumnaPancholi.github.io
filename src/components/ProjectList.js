@@ -1,5 +1,5 @@
 import { Grid, Typography } from '@material-ui/core';
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 
 import projects from '../data/projects.json';
 import ProjectCard from './Layout/ProjectCard';
